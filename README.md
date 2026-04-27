@@ -20,8 +20,8 @@ using descriptive statistics, comparing outpatient (OPD) and inpatient (IPD) rec
 - **Remdesivir Use in Pediatric COVID-19 Project**—Conducted statistical analysis in Stata, including chi-square tests and
 univariate and stepwise multivariate logistic regression, to assess predictors of disease severity among patients aged up
 to 18 years.
----
 
+---
 ## Survey and Data Analyst at Buddy CU Clinic, Center of Excellence for Pediatric Infectious Diseases and Vaccines, Faculty of Medicine, Chulalongkorn University (_January 2025 - April 2026_)
 [![PDF](https://img.shields.io/badge/PDF-CU%20First%20Poster-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/CU%20First%20Poster.pdf)
 [![PDF](https://img.shields.io/badge/PDF-CU%20Second%20Report-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/CU%20Second%20Report.pdf)
@@ -33,6 +33,7 @@ youth aged 15–24 years in Bangkok. The data was analyzed using Stata to identi
 of condoms during sexual intercourse, employing both descriptive statistics and Chi-square tests.
 
 ![KU Poster](assets/KU%2060x160.png)
+
 ---
 # Academic Projects
 ---
@@ -47,6 +48,7 @@ divided into 4 groups.<br>
 - Prepared the results in the form of a full report, an English research article, and a poster for the NovaSciKU 2026.<br>
 
 ![NovaSci Poster](assets/Poster_Novasic_KU60%20(1).png)
+
 ---
 ## Factor Association of Mortality Risk Among People Living with HIV Antiretroviral Therapy Initiation in Thailand: A Stratified Cox Proportional Hazards Model
 [![PDF](https://img.shields.io/badge/PDF-Medical%20Report-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Medical%20Report.pdf)
@@ -61,4 +63,5 @@ achieving 82.25% AUC.<br>
 - Prepared the results as a poster presentation for a medical statistics class.<br>
 
 ![Final Medical Project](assets/Final_Med_Project.png)
+
 ---
