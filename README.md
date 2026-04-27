@@ -23,8 +23,10 @@ to 18 years.
 
 ---
 ## Survey and Data Analyst at Buddy CU Clinic, Center of Excellence for Pediatric Infectious Diseases and Vaccines, Faculty of Medicine, Chulalongkorn University (_January 2025 - April 2026_)
+
 [![PDF](https://img.shields.io/badge/PDF-CU%20First%20Poster-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/CU%20First%20Poster.pdf)
 [![PDF](https://img.shields.io/badge/PDF-CU%20Second%20Report-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/CU%20Second%20Report.pdf)
+
 - **Assessing Youth Knowledge and Understanding of Sexual Health**—A survey was conducted among youth aged 15–24
 years from Suankularb Wittayalai School and Kasetsart University via Google Forms. The results were utilized to
 develop targeted educational materials and youth engagement strategies.
@@ -38,8 +40,10 @@ of condoms during sexual intercourse, employing both descriptive statistics and 
 # Academic Projects
 ---
 ## A Comparison of Test Statistics for the Equality of Covariance Matrices in High-Dimensional Data and an Application to Microarray Data
+
 [![PDF](https://img.shields.io/badge/PDF-Paper-orange?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Paper.pdf)
 [![PDF](https://img.shields.io/badge/PDF-NovaSci%20Poster-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/NovaSci%20Poster.pdf)
+
 - Simulated high-dimensional multivariate normal data under five covariance structures using Python.<br>
 - Compare performance of five test statistics for testing the equality of covariance matrices, evaluated based on their
 ability to control the type I error rate and their power.<br>
@@ -51,8 +55,10 @@ divided into 4 groups.<br>
 
 ---
 ## Factor Association of Mortality Risk Among People Living with HIV Antiretroviral Therapy Initiation in Thailand: A Stratified Cox Proportional Hazards Model
+
 [![PDF](https://img.shields.io/badge/PDF-Medical%20Report-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Medical%20Report.pdf)
 [![PDF](https://img.shields.io/badge/PDF-Medical%20Poster-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Medical%20Poster.pdf)
+
 - Analyzed time-to-event data among people living with HIV initiating antiretroviral therapy (ART) in Thailand with a
 sample size of 49488 from 2021 to 2022.<br>
 - Estimated survival probability in Stata using Kaplan–Meier curves and log-rank tests to compare survival probabilities
