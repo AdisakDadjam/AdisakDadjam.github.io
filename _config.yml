@@ -1,18 +1,13 @@
-title: <p align="center"> Adisak Dadjam </p>
-
-logo: "assets/49635_ok.jpg"
-
-description:
+title: Adisak Dadjam
+logo: "/assets/49635_ok.jpg"
+description: >
   <p align="center">
-  <a href="file:///C:/Users/user/Downloads/CV%20(8).pdf">Resume</a> |
-  <a href="linkedin.com/in/adisak-dadjam-05a283405/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6j2x56IvR5S5KnVkL7qbaQ%3D%3D">LinkedIn</a> |
-  <a href="https://github.com/AdisakDadjam">GitHub</a>
+    <a href="/pdf/resume.pdf">Resume</a> | 
+    <a href="https://www.linkedin.com/in/adisak-dadjam-05a283405/">LinkedIn</a> | 
+    <a href="https://github.com/AdisakDadjam">GitHub</a>
   </p>
-  
-  <p align="justify">
-  I am a recent Statistics graduate from the Faculty of Science with experience in applying statistical methods for data analysis and hypothesis testing. I am passionate about building a career in Data Science, particularly in the medical field, where I can apply analytical skills to solve complex problems while continuing to learn and grow professionally.
-  <br><br>
-  email - OmeDadjam2547@gmail.com
-  <br><br>
-  </p>
-  
+
+  I am a Statistics graduate from the Faculty of Science with experience in applying statistical methods for data analysis and hypothesis testing. I am passionate about building a career in Data Science, particularly in the medical field, where I can apply analytical skills to solve complex problems while continuing to learn and grow professionally.
+
+  **Email:** OmeDadjam2547@gmail.com
+theme: jekyll-theme-minimal
