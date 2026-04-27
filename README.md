@@ -9,7 +9,7 @@ Cumulative GPA: 3.43/4.00 (Second-Class Honors)<br>
 ---
 - **Data Science:** Statistical Modeling and Analysis, Data Visualization, Data Wrangling
 - **Programming:** Python, R, Stata, Minitab, SPSS, Microsoft Excel
-- **AI Prompts:** Chatgpt, Google Gemini, Deep Seek
+- **Soft Skills:** Adaptability, Analytical Thinking, Collaboration, Communication, Problem-Solving
 
 ---
 # Work Experience
