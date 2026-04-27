@@ -28,6 +28,7 @@ develop targeted educational materials and youth engagement strategies.
 - **A Survey of Adolescent and Youth Perspectives on Condom Use**—A survey was conducted via Google Forms, targeting
 youth aged 15–24 years in Bangkok. The data was analyzed using Stata to identify factors contributing to the non-use
 of condoms during sexual intercourse, employing both descriptive statistics and Chi-square tests.
+![KU Poster](assets/KU%2060x160.png)
 ---
 # Academic Projects
 ---
@@ -39,6 +40,7 @@ ability to control the type I error rate and their power.<br>
 - Calculate the test statistics that are able to control type I error rate using the gene expression dataset of glioma samples obtained from the NCBI Gene Expression Omnibus (GEO), with a total of 24785 variables and a sample size of 180,
 divided into 4 groups.<br>
 - Prepared the results in the form of a full report, an English research article, and a poster for the NovaSciKU 2026.<br>
+![NovaSci Poster](assets/Poster_Novasic_KU60%20(1).png)
 ---
 ## Factor Association of Mortality Risk Among People Living with HIV Antiretroviral Therapy Initiation in Thailand: A Stratified Cox Proportional Hazards Model
 
@@ -50,4 +52,5 @@ across clinical characteristics.<br>
 associated with mortality risk among people living with HIV initiating antiretroviral therapy (ART) in Thailand,
 achieving 82.25% AUC.<br>
 - Prepared the results as a poster presentation for a medical statistics class.<br>
+![Final Medical Project](assets/Final_Med_Project.png)
 ---
