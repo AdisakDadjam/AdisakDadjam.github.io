@@ -70,4 +70,3 @@ achieving 82.25% AUC.<br>
 
 ![Final Medical Project](assets/Final_Med_Project.png)
 
----
