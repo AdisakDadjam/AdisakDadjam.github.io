@@ -34,7 +34,7 @@ of condoms during sexual intercourse, employing both descriptive statistics and 
 # Academic Projects
 ---
 ## A Comparison of Test Statistics for the Equality of Covariance Matrices in High-Dimensional Data and an Application to Microarray Data
-
+[![PDF](https://img.shields.io/badge/PDF-Paper%20Project-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Paper_project.pdf)
 - Simulated high-dimensional multivariate normal data under five covariance structures using Python.<br>
 - Compare performance of five test statistics for testing the equality of covariance matrices, evaluated based on their
 ability to control the type I error rate and their power.<br>
