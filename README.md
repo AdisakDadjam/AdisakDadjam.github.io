@@ -46,7 +46,7 @@ divided into 4 groups.<br>
 ![NovaSci Poster](assets/Poster_Novasic_KU60%20(1).png)
 ---
 ## Factor Association of Mortality Risk Among People Living with HIV Antiretroviral Therapy Initiation in Thailand: A Stratified Cox Proportional Hazards Model
-[![PDF](https://img.shields.io/badge/PDF-Final%20Med%20Project-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Final_Med_Project.pdf)
+[![PDF](https://img.shields.io/badge/PDF-Medical%20Report-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://github.com/AdisakDadjam/AdisakDadjam.github.io/blob/main/pdf/Medical_Report.pdf)
 - Analyzed time-to-event data among people living with HIV initiating antiretroviral therapy (ART) in Thailand with a
 sample size of 49488 from 2021 to 2022.<br>
 - Estimated survival probability in Stata using Kaplan–Meier curves and log-rank tests to compare survival probabilities
