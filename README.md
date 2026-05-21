@@ -80,7 +80,7 @@ achieving 82.25% AUC.<br>
 ---
 ## Quantile Regression Analysis of Factors Associated with the Latest CD4 Count After Antiretroviral Therapy Initiation Among People Living with HIV in Northern Thailand
 
-[![PDF](https://img.shields.io/badge/PDF-Report-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Report.pdf)
+[![PDF](https://img.shields.io/badge/PDF-Report-pink?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Report.pdf)
 
 - Analyzed time-to-event data among people living with HIV initiating antiretroviral therapy (ART) in Thailand with a
 sample size of 49488 from 2021 to 2022.<br>
@@ -92,6 +92,6 @@ achieving 82.25% AUC.<br>
 - Prepared the results as a poster presentation for a medical statistics class.<br>
 
 ![Table1](assets/1.png)
-![Table2](assets/2.png)
+![Table2](assets/2.1.png)
 ![Table3](assets/3.png)
 
