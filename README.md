@@ -93,5 +93,5 @@ achieving 82.25% AUC.<br>
 
 ![Table1](assets/1.png)
 ![Table2](pdf/2.1.png)
-![Table3](assets/3.png)
+![Table3](assets/3.1.png)
 
