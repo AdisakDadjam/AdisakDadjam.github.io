@@ -86,7 +86,7 @@ achieving 82.25% AUC.<br>
 - Constructed linear regression and quantile regression models to identify factors influencing the increase in CD4 count at the last visit following ART initiation using Stata.<br>
 - Prepared a report presentation for a medical statistics class.<br>
 
-![Table1](assets/1.png)
+![Table1](assets/3.1.jpg)
 ![Table2](pdf/2.1.png)
-![Table3](assets/3.1.png)
+![Table3](assets/3.png)
 
