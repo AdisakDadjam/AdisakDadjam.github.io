@@ -92,6 +92,6 @@ achieving 82.25% AUC.<br>
 - Prepared the results as a poster presentation for a medical statistics class.<br>
 
 ![Table1](assets/1.png)
-![Table2](assets/2.1.png)
+![Table2](pdf/2.1.png)
 ![Table3](assets/3.png)
 
