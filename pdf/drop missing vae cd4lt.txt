@@ -1,0 +1,208 @@
+*drop missing vae cd4lt*
+drop if missing(cd4lt) 
+.
+*check missing*
+count if missing(cd4bl)
+.
+*drop extreme value cd4bl*
+drop if cd4bl == 5022 | cd4bl == 6740 
+.
+*ageartg label*
+label define ageartg_lbl 0 "15-24" 1 "25-49" 2 ">=50",modify
+label values ageartg ageartg_lbl
+.
+*generate cd4bl group & label value*
+generate cd4blg = .
+replace cd4blg = 0 if cd4bl < 200
+replace cd4blg = 1 if cd4bl >= 200 & cd4bl < 350
+replace cd4blg = 2 if cd4bl >= 350
+replace cd4blg = 3 if missing(cd4bl)
+.
+label define cd4blg_lbl 0 "<200" 1 "200-<350" 2 ">=350" 3 "Unknown",modify
+label values cd4blg cd4blg_lbl
+.
+*check date var*
+describe firstd diagd farvdate lastd
+.
+*generate Duration of art*
+generate du_art = lastd - farvdate
+.
+*generate Duration of art group*
+generate du_art_g = du_art
+replace du_art_g = 0 if du_art <= 182.625
+replace du_art_g = 1 if du_art > 182.625 & du_art <= 365.25
+replace du_art_g = 2 if du_art > 365.25
+.
+label define du_artg_lbl 0 "Within 6 months" 1 "> 6 to 12 months" 2 "> 12 months",modify
+label values du_art_g du_artg_lbl
+.
+*generate diagd_n*
+generate diagd_n = diagd
+replace diagd_n = firstd if missing(diagd)
+format diagd_n %td
+.
+*generate Rapid of art*
+generate rapid_art = farvdate - diagd_n
+.
+*generate Rapid of art group for Characteristics*
+generate rapid_artg_c = rapid_art
+replace rapid_artg_c = 0 if rapid_art <= 30.4375
+replace rapid_artg_c = 1 if rapid_art > 30.4375
+.
+label define rapid_artg_c_lbl 0 "Rapid" 1 "Not Rapid" ,modify
+label values rapid_artg_c rapid_artg_c_lbl
+.
+*generate Rapid of art group for factor*
+generate rapid_artg = rapid_art
+replace rapid_artg = 0 if rapid_art <= 30.4375
+replace rapid_artg = 1 if rapid_art > 30.4375 & rapid_art <= 91.3125
+replace rapid_artg = 2 if rapid_art > 91.3125
+.
+label define rapid_artg_lbl 0 "Within 1 month" 1 "> 1 to 3 months" 2 "> 3 months",modify
+label values rapid_artg rapid_artg_lbl
+.
+*drop rapid_art negative date*
+drop if rapid_art < 0
+.
+*generate HIV Stage*
+gen hivstage  = infect_phase
+replace hivstage  = 1 if infect_phase ==4
+replace hivstage  = 1 if infect_phase ==5
+replace hivstage  = 2 if infect_phase ==6
+replace hivstage  = 3 if infect_phase ==7
+replace hivstage  = 4 if hivstage == .
+replace hivstage  = 3 if firstoi=="Y"
+replace hivstage  = 1 if firstoi=="N"  & hivstage == 4
+
+label define hivstage 1 "Asymptomatic HIV" 2 "Symptomatic HIV" 3 "AIDS"
+label values hivstage hivstage
+.
+*generate fartg*
+gen fartg =  1 if index(fregimen,"NNRTI") > 0 & index(fregimen,"PIs") == 0
+replace fartg =  2 if index(fregimen,"NNRTI") == 0 & index(fregimen,"PIs") >0
+replace fartg =  3 if  index(fregimen,"DTG")
+replace fartg =  4 if index(fregimen,"NNRTI") == 0 & index(fregimen,"PIs") == 0 & index(fregimen,"NRTI") > 0
+
+replace fartg =  5 if index(fregimen,"NNRTI") > 0 & index(fregimen,"PIs") > 0
+replace fartg =  6 if fartg == .
+replace fartg =  7 if fdrug == ""
+
+
+replace fartg = 2 if fartg == 4 & lregimen =="PIs+NRTI"
+replace fartg = 2 if fartg == 4 & lregimen =="mono-PIs"
+replace fartg = 2 if fartg == 5 & lregimen =="PIs+NRTI"
+replace fartg = 1 if fartg == 5 & lregimen =="NNRTI+NRTI"
+replace fartg = 2 if fartg == 5 & lregimen =="mono-PIs"
+replace fartg = 1 if fartg == 5 & lregimen =="mono-NNRTI"
+
+
+label define fartg 1 "NNRTI" 2 "PI" 3 "DTG-based" 4 "only NRTI" 5 "NNRTI+PI" 6 "Third-line" 7 "unknown" ,replace
+label values fartg fartg
+.
+
+*คำสั่ง list*
+list fartg fregimen if fregimen == "INSTIs"
+.
+*เช็ค label*
+tab fartg, nolabel
+.
+*generate fartg_n*
+generate fartg_n = .
+replace fartg_n = 1 if fartg == 1
+replace fartg_n = 2 if fartg == 2
+replace fartg_n = 3 if fartg == 3
+replace fartg_n = 4 if inlist(fartg, 4, 5, 6)
+
+label define fartgn_lbl 1 "NNRTI" 2 "PI" 3 "DTG-based" 4 "Others",modify
+label values fartg_n fartgn_lbl
+.
+*ใส่ label ในตัวแปร died*
+label define died_lbl 0 "No" 1 "Yes"
+label values died died_lbl 
+.
+*ใส่ label ในตัวแปร sex*
+label define sex_lbl 1 "Male" 2 "Female"
+label values sex sex_lbl
+.
+*generate firstoi_g*
+generate firstoi_g = .
+replace firstoi_g = 1 if firstoi == "Y"
+replace firstoi_g = 0 if firstoi == "N"
+label define firstoi_g_lbl 0 "No" 1 "Yes"
+label values firstoi_g firstoi_g_lbl
+.
+*generate vly1 group*
+generate vly1_g = .
+replace vly1_g = 0 if vly1 <= 50
+replace vly1_g = 1 if vly1 >50
+replace vly1_g = 2 if missing(vly1)
+.
+label define vly1_g_lbl 0 "<=50" 1 ">50" 2 "Unknown",modify
+label values vly1_g vly1_g_lbl
+.
+*จัดกลุ่ม province*
+generate area_ng = .
+replace area_ng = 0 if inlist(province, "Chiang Mai","Chiang Rai","Lamphun","Lampang", "Mae Hong Son","Phrae","Phayao","Nan")
+replace area_ng = 1 if inlist(province, "Tak","Sukhothai","Phitsanulok","Phichit", "Kamphaeng Phet","Nakhon Sawan","Uthai Thani","Phetchabun","Uttaradit")
+label define area_ng_lbl 0 "Upper_North" 1 "Lower_North",modify
+label values area_ng area_ng_lbl
+.
+*แทนค่าสูญหาย*
+replace area_ng = 1 if missing(area_ng)
+.
+*cd4lt แบ่งกลุ่ม*
+generate cd4ltg = .
+replace cd4ltg = 1 if cd4lt <= 500
+replace cd4ltg = 2 if cd4lt > 500
+.
+label define cd4ltg_lbl 0 "<=500" 1 ">500",modify
+label values cd4ltg cd4ltg_lbl
+.
+gen HIV_diag = .
+
+replace HIV_diag = 1 if inrange(year_diagd_n,2008,2013)
+replace HIV_diag = 2 if inrange(year_diagd_n,2014,2016)
+replace HIV_diag = 3 if inrange(year_diagd_n,2017,2019)
+replace HIV_diag = 4 if inrange(year_diagd_n,2020,2022)
+
+label define HIV_diag_lbl 1 "2008-2013" 2 "2014-2016" 3 "2017-2019" 4 "2020-2022",modify
+label values HIV_diag HIV_diag_lbl
+.
+gen yearart_n = .
+.
+replace yearart_n = 0 if yearart == 2021
+replace yearart_n = 1 if yearart == 2022
+.
+label define yearart_n_lbl 0 "2021" 1 "2022",modify
+label values yearart_n yearart_n_lbl
+.
+category data
+foreach var in sex ageartg cd4blg vly1_g du_art_g rapid_artg hivstage fartg_n firstoi_g area_ng HIV_diag yearart_n {
+    regress cd4lt i.`var',vce(robust) baselevel
+}
+.
+gen vly1g_g = .
+replace vly1g_g = 0 if vly1_log < 3
+replace vly1g_g = 1 if vly1_log >= 3 & vly1_log < 4
+replace vly1g_g = 2 if vly1_log >= 4 & vly1_log < 5
+replace vly1g_g = 3 if vly1_log >= 5
+replace vly1g_g = 4 if missing(vly1_log)
+
+* 4. กำหนด Label ให้ตัวเลขแสดงผลเป็นข้อความ
+label define vlyyy_label 0 "<3" 1 "3-3.99" 2 "4-4.99" 3 ">5" 4 "Unknown"
+label values vly1g_g vlyyy_label
+.
+*แบ่งกลุ่มประกัน
+generate maininscl_g = .
+replace maininscl_g = 0 if maininscl == "UCS"
+replace maininscl_g = 1 if maininscl == "SSS"
+replace maininscl_g = 3 if maininscl == ""
+replace maininscl_g = 2 if maininscl != "UCS" & maininscl != "SSS" & maininscl != ""
+.
+label define maininscl_g_lbl 0 "UCS" 1 "SSS" 2 "Others" 3 "Unknown",modify
+label values maininscl_g maininscl_g_lbl
+.
+generate du_art_m = du_art/30.4375
+generate rapid_art_m = rapid_art/30.4375
+.
+stcox i.sex ib3.fartg_n ib1.firstoi_g i.yearart_n i.rapid_artg ib1.minc_group, tvc(i.ageartg i.cd4blg ib2.hivstage i.du_art_g i.area_ng) baselevel
