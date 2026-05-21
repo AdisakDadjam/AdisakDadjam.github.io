@@ -82,14 +82,9 @@ achieving 82.25% AUC.<br>
 
 [![PDF](https://img.shields.io/badge/PDF-Report-pink?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Report.pdf)
 
-- Analyzed time-to-event data among people living with HIV initiating antiretroviral therapy (ART) in Thailand with a
-sample size of 49488 from 2021 to 2022.<br>
-- Estimated survival probability in Stata using Kaplan–Meier curves and log-rank tests to compare survival probabilities
-across clinical characteristics.<br>
-- Refined the Cox regression model by applying a stratified Cox proportional hazards approach to identify factors
-associated with mortality risk among people living with HIV initiating antiretroviral therapy (ART) in Thailand,
-achieving 82.25% AUC.<br>
-- Prepared the results as a poster presentation for a medical statistics class.<br>
+- Analyzed cross sectional data among people living with HIV initiating antiretroviral therapy (ART) in Northen Thailand with a sample size of 7320 from 2021 to 2022.<br>
+- Constructed linear regression and quantile regression models to identify factors influencing the increase in CD4 count at the last visit following ART initiation using Stata.<br>
+- Prepared a report presentation for a medical statistics class.<br>
 
 ![Table1](assets/1.png)
 ![Table2](pdf/2.1.png)
