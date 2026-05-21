@@ -46,9 +46,9 @@ of condoms during sexual intercourse, employing both descriptive statistics and 
 [![PDF](https://img.shields.io/badge/PDF-Result%20Report-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Result%20Report.pdf)
 [![PDF](https://img.shields.io/badge/PDF-Paper-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Paper.pdf)
 [![PDF](https://img.shields.io/badge/PDF-NovaSci%20Poster-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/NovaSci%20Poster.pdf)
-[![PDF](https://img.shields.io/badge/PDF-Simulation%20Test%20Statistic%20Ahmad%20Code-73a812green?style=flat-square&logo=none)](https://adisakdadjam.github.io/pdf/Simulation%20Test%20Statistic%20Ahmad%20Code.pdf)
-[![PDF](https://img.shields.io/badge/PDF-Real%20Dataset%20Test%20Statistic%20Ahmad%20Code-73a812green?style=flat-square&logo=none)](https://adisakdadjam.github.io/pdf/Real%20Dataset%20Test%20Statistic%20Ahmad%20Code.pdf)
-[![NCBI](https://img.shields.io/badge/NCBI-Dataset-73a812green?style=flat-square&logo=none)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse4290)
+[![PDF](https://img.shields.io/badge/PDF-Simulation%20Test%20Statistic%20Ahmad%20Code-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Simulation%20Test%20Statistic%20Ahmad%20Code.pdf)
+[![PDF](https://img.shields.io/badge/PDF-Real%20Dataset%20Test%20Statistic%20Ahmad%20Code-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Real%20Dataset%20Test%20Statistic%20Ahmad%20Code.pdf)
+[![NCBI](https://img.shields.io/badge/NCBI-Dataset-green?style=flat&logo=ncbi&logoColor=white)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse4290)
 
 - Simulated high-dimensional multivariate normal data under five covariance structures using Python.<br>
 - Compare performance of five test statistics for testing the equality of covariance matrices, evaluated based on their
