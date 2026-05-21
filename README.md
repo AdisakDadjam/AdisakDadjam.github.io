@@ -83,7 +83,7 @@ achieving 82.25% AUC.<br>
 [![PDF](https://img.shields.io/badge/PDF-Report-pink?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Report.pdf)
 
 - Analyzed cross sectional data among people living with HIV initiating antiretroviral therapy (ART) in Northen Thailand with a sample size of 7320 from 2021 to 2022.<br>
-- Constructed Linear regression and Quantile regression models to identify factors influencing the increase in CD4 count at the last visit following ART initiation using Stata.<br>
+- Constructed linear regression and quantile regression models to identify factors influencing the increase in CD4 count at the last visit following ART initiation using Stata.<br>
 - Prepared a report presentation for a medical statistics class.<br>
 
 ![Table4](assets/33.png)
