@@ -46,7 +46,7 @@ of condoms during sexual intercourse, employing both descriptive statistics and 
 [![PDF](https://img.shields.io/badge/PDF-Ex%20Report-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Ex%20Report.pdf)
 [![PDF](https://img.shields.io/badge/PDF-Paper-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Paper.pdf)
 [![PDF](https://img.shields.io/badge/PDF-NovaSci%20Poster-green?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/NovaSci%20Poster.pdf)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Test__Statistic__Ahmad-73a812?style=flat-square&logo=none)](https://adisakdadjam.github.io/pdf/Test_Statistic_Ahmad.html)
+[![PDF](https://img.shields.io/badge/PDF-Real%20Dataset%20Test%20Statistic%20Ahmad%20Code-73a812?style=flat-square&logo=none)](https://adisakdadjam.github.io/pdf/Real%20Dataset%20Test%20Statistic%20Ahmad%20Code.pdf)
 
 - Simulated high-dimensional multivariate normal data under five covariance structures using Python.<br>
 - Compare performance of five test statistics for testing the equality of covariance matrices, evaluated based on their
