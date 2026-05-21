@@ -64,6 +64,7 @@ divided into 4 groups.<br>
 
 [![PDF](https://img.shields.io/badge/PDF-Medical%20Report-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Medical%20Report.pdf)
 [![PDF](https://img.shields.io/badge/PDF-Medical%20Poster-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Medical%20Poster.pdf)
+[![PDF](https://img.shields.io/badge/PDF-Clean%20Stata%20Code-red?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Clean%20Stata%20Code.pdf)
 
 - Analyzed time-to-event data among people living with HIV initiating antiretroviral therapy (ART) in Thailand with a
 sample size of 49488 from 2021 to 2022.<br>
@@ -75,4 +76,22 @@ achieving 82.25% AUC.<br>
 - Prepared the results as a poster presentation for a medical statistics class.<br>
 
 ![Final Medical Project](assets/Final_Med_Project.png)
+
+---
+## Quantile Regression Analysis of Factors Associated with the Latest CD4 Count After Antiretroviral Therapy Initiation Among People Living with HIV in Northern Thailand
+
+[![PDF](https://img.shields.io/badge/PDF-Report-blue?style=flat&logo=adobe-acrobat-reader&logoColor=white)](https://adisakdadjam.github.io/pdf/Report.pdf)
+
+- Analyzed time-to-event data among people living with HIV initiating antiretroviral therapy (ART) in Thailand with a
+sample size of 49488 from 2021 to 2022.<br>
+- Estimated survival probability in Stata using Kaplan–Meier curves and log-rank tests to compare survival probabilities
+across clinical characteristics.<br>
+- Refined the Cox regression model by applying a stratified Cox proportional hazards approach to identify factors
+associated with mortality risk among people living with HIV initiating antiretroviral therapy (ART) in Thailand,
+achieving 82.25% AUC.<br>
+- Prepared the results as a poster presentation for a medical statistics class.<br>
+
+![Table1](assets/1.png)
+![Table2](assets/2.png)
+![Table3](assets/3.png)
 
